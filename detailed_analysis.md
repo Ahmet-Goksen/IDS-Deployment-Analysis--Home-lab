@@ -159,3 +159,69 @@ Instantly, Snort generated an alerts on the console:
 ## Conclusion
 
 This project successfully demonstrated the deployment of a basic IDS using Snort in a virtualized environment. By configuring network bridging and promiscuous mode, the VM was able to monitor live traffic and trigger alerts based on custom rules. This foundation can be extended with more sophisticated rule sets, output logging, and integration with security information and event management (SIEM) tools for deeper network analysis.
+
+# References
+
+The following authoritative sources were consulted to ensure proper configuration, deployment, and validation of the Intrusion Detection System (IDS) using Snort in a virtualized Ubuntu environment.
+
+---
+
+## Snort Documentation
+
+- Snort Official Documentation  
+  https://docs.snort.org/
+
+- Snort 2.x User Manual  
+  https://www.snort.org/documents
+
+- Snort Rule Writing Guide  
+  https://docs.snort.org/rules/intro
+
+- Snort Configuration File Reference (snort.conf)  
+  https://docs.snort.org/start/configuration
+
+---
+
+## Ubuntu Server Documentation
+
+- Ubuntu Server Guide  
+  https://ubuntu.com/server/docs
+
+- Ubuntu Package Management (APT) Documentation  
+  https://help.ubuntu.com/lts/serverguide/apt.html
+
+- Network Configuration in Ubuntu  
+  https://ubuntu.com/server/docs/network-configuration
+
+---
+
+## Oracle VirtualBox Documentation
+
+- VirtualBox User Manual  
+  https://www.virtualbox.org/manual/UserManual.html
+
+- VirtualBox Networking Modes (Bridged & Promiscuous Mode)  
+  https://www.virtualbox.org/manual/ch06.html
+
+---
+
+## Intrusion Detection & Network Security Concepts
+
+- NIST Special Publication 800-94: Guide to Intrusion Detection and Prevention Systems (IDPS)  
+  https://csrc.nist.gov/publications/detail/sp/800-94/final
+
+- MITRE ATT&CK Framework  
+  https://attack.mitre.org/
+
+- SANS Institute – Intrusion Detection FAQ  
+  https://www.sans.org/white-papers/55/
+
+---
+
+## ICMP & Network Protocol References
+
+- RFC 792 – Internet Control Message Protocol (ICMP)  
+  https://datatracker.ietf.org/doc/html/rfc792
+
+- Wireshark Display Filter Reference (ICMP)  
+  https://www.wireshark.org/docs/dfref/i/icmp.html
