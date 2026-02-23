@@ -17,6 +17,8 @@ I began by downloading **Oracle VirtualBox** from the official website and the *
 
 During installation, I selected the Ubuntu Server ISO and completed the standard setup (user account, system updates, etc.).
 
+![Screenshot](screenshots/Downloading-Splunk-Enterprise.png)
+
 ---
 
 ## 2. Network Configuration – The Bridge Trick
