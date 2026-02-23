@@ -17,7 +17,7 @@ I began by downloading **Oracle VirtualBox** from the official website and the *
 
 During installation, I selected the Ubuntu Server ISO and completed the standard setup (user account, system updates, etc.).
 
-![Screenshot](screenshots/Downloading-Splunk-Enterprise.png)
+![Screenshot](screenshots/IDS_screen_1.png)
 
 ---
 
@@ -85,9 +85,7 @@ sudo snort -T -c /etc/snort/snort.conf
 
 The output confirmed:
 
-```
-Snort successfully validated the configuration.
-```
+![Screenshot](screenshots/IDS_screen_2.png) 
 
 ---
 
@@ -152,11 +150,9 @@ From a separate machine on the same network (in my case, a Windows PC), I pinged
 ping 192.168.0.13
 ```
 
-Instantly, Snort generated an alert on the console:
+Instantly, Snort generated an alerts on the console:
 
-```text
-[**] [1:1000001:1] ALARM: Ping Detected! [**]
-```
+![Screenshot](screenshots/IDS_screen_3.png) 
 
 ---
 
